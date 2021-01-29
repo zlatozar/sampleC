@@ -252,4 +252,3 @@ struct bc_stack * push(stack, label)
 				all_program();	/* allocate global variables */
 				printf("\tend\t%d,main\n", g_offset);
 			}
-

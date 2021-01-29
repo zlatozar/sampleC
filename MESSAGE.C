@@ -50,4 +50,3 @@ bug VARPARM
 		}
 	fatal("no more room to save strings");
 }
-

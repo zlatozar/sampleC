@@ -247,7 +247,7 @@ inst label;
 {
 	extern int l_max;		/* size of local region */
 	prog[label].p_val = l_max;
-	printf('%d:\tentry\t;%s\n", label, l_max, symbol->s_name);
+	printf("%d:\tentry\t;%s\n", label, l_max, symbol->s_name);
 }
 
 /*
@@ -260,8 +260,6 @@ end_program()
 	extern struct symtab * sfind();
 	int main = sfind("main") -> s_offset;
 	all_program();		/* alolocate global bariables */
-		printf(%d:\tend\t%d.%d\n", pc, g_offset, main);
+		printf("%d:\tend\t%d.%d\n", pc, g_offset, main);
 		simulate ( pc,g_offset,main);
 }
-
-

@@ -39,4 +39,3 @@
  *		tPED FUNCTION AND CODE GENERATOR
  */
 char * gen_mod();			/* region modifier */
-

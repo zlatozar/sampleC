@@ -47,4 +47,3 @@ struct symtab * make_func();		/* define function */
  */
 char * strsav();						/* dynamically save a string */
 char * calloc();						/* dynamicall obtain memory 	*/
-

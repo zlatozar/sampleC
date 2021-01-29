@@ -61,7 +61,7 @@ all_parm( symbol)
 
 }
 /*
- * complete allocatio of a function
+ * complete allocation of a function
  */
 all_func(symbol)
 	struct symtab * symbol;
@@ -72,4 +72,3 @@ all_func(symbol)
 #endif
 
 }
-

@@ -12,4 +12,3 @@ cc gen.c mem.c symtab.c message.c y.tab.c lex.yy.c \
 // load and go compiller and simulator
 cc sim.c simgen.c mem.c symbat.c message.c y.tab.c lex.yy.c \
 	colib -ll -o sim
-

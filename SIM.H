@@ -50,5 +50,4 @@ struct prog {
  */
 #define	L_PROG	200			/* max. program size */
 #define	L_DATA	100			/* max. area for stack,etc. */
-#defime DIM(x)		(sizeof x / sizeof x[0]) /* extent*/
-
+#define DIM(x)		(sizeof x / sizeof x[0]) /* extent*/

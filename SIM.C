@@ -139,7 +139,7 @@ int pc_limit, global, pc;
 				if(T <= L)
 					bug("simulator stack underflow");
 				if ( data[POP] == 0){
-					printf("%d:\tjumpz\t%d\n,
+					printf("%d:\tjumpz\t%d\n",
 						inst-prog, inst->p_val);
 					pc= inst ->p_val;
 					}
@@ -160,7 +160,7 @@ int pc_limit, global, pc;
 					break;
 			CASE OP_RETURN:
 				if (T < L)
-					bug("simulator stack underflow);
+					bug("simulator stack underflow");
 				T= L;
 				L = data[POP];
 				P = data[POP];
@@ -173,4 +173,3 @@ int pc_limit, global, pc;
 					}
 		}
 }
-

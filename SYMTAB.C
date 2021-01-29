@@ -350,4 +350,3 @@ register struct symtab * symbol;
 		symbol->s_blknum = 1;
 
 }
-
